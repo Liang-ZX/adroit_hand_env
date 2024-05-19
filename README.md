@@ -1,13 +1,15 @@
-# Mujoco Environments
-`mj_envs` is a collection of environments/tasks simulated with the [Mujoco](http://www.mujoco.org/) physics engine and wrapped in the OpenAI `gym` API.
+# Adroit Dexterous Hand MuJoCo Env Suite
+`mj_envs` is a collection of environments/tasks simulated with the [MuJoCo](http://www.mujoco.org/) physics engine and wrapped in the OpenAI `gym` API.
 
 ## Getting Started
 `mj_envs` uses git submodules to resolve dependencies. Please follow steps exactly as below to install correctly.
 
 1. Clone this repo with pre-populated submodule dependencies
 ```
-$ git clone --recursive https://github.com/vikashplus/mj_envs.git
+$ git clone --recursive https://github.com/Liang-ZX/adroit_hand_env.git
 ```
+Please check [https://github.com/vikashplus/mj_envs](https://github.com/vikashplus/mj_envs) for more details.
+
 2. Update submodules
 ```
 $ cd mj_envs  
@@ -38,4 +40,5 @@ Hand-Manipulation-Suite Tasks [(video)](https://youtu.be/jJtBll8l_OM)
 :-------------------------:
 ![Alt text](mj_envs/hand_manipulation_suite/assets/tasks.jpg?raw=false "Fetch Pole")
 
-## 2. More coming soon 
+### 1.1 XML Files
+The environments are defined in XML files located in `mj_envs/hand_manipulation_suite/assets/DAPG_{env_name}.xml`. The XML files define the robot, the objects, the camera, the lights, and the task-specific parameters. The XML files are used to generate the MuJoCo model files and the gym environment classes.
