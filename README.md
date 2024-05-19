@@ -1,6 +1,8 @@
 # Adroit Dexterous Hand MuJoCo Env Suite
 `mj_envs` is a collection of environments/tasks simulated with the [MuJoCo](http://www.mujoco.org/) physics engine and wrapped in the OpenAI `gym` API.
 
+**Adroit Env Definition**: [https://robotics.farama.org/envs/adroit_hand/adroit_door/](https://robotics.farama.org/envs/adroit_hand/adroit_door/)
+
 ## Getting Started
 `mj_envs` uses git submodules to resolve dependencies. Please follow steps exactly as below to install correctly.
 
